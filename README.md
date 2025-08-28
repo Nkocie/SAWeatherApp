@@ -16,9 +16,8 @@ A simple Python app to fetch real-time weather information for **any city in Sou
 - Python 3.x
 - `requests` library
 
-Install `requests` with:
-
-```bash pip install requests ```
+Install `requests` with bash:
+``` pip install requests ```
 
 ---
 
@@ -27,13 +26,13 @@ Install `requests` with:
 1. Sign up for a free API key at OpenWeatherMap
 2. Clone or download this repository to your local machine.
 3. Open weather.py in a text editor.
-4. Replace the placeholder API key: 'API_KEY = "YOUR_API_KEY_HERE"' with your actual API key.
+4. Replace the placeholder API key: ```API_KEY = "YOUR_API_KEY_HERE"``` with your actual API key.
 
 ## Usage
 
 1. Open a terminal or command prompt.
 2. Navigate to the folder containing weather.py.
-3. Run the script: 'python weather.py'
+3. Run the script: ```python weather.py```
 
 ## Notes
 

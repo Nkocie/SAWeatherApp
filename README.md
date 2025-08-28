@@ -20,6 +20,8 @@ Install `requests` with:
 ```bash
 pip install requests
 
+---
+
 ## Setup
 
 1. Sign up for a free API key at OpenWeatherMap

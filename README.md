@@ -17,7 +17,7 @@ A simple Python app to fetch real-time weather information for **any city in Sou
 - `requests` library
 
 Install `requests` with:
-```bash
+
 pip install requests
 
 ---

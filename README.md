@@ -7,6 +7,7 @@ A simple Python app to fetch real-time weather information for **any city in Sou
 ## Features
 - Get current temperature, humidity, and weather condition.
 - Works for **any South African city**.
+- If city the city name is not found in the database, the coordinates(latitude&longitude) are used instead
 - Uses OpenWeatherMap API for accurate weather data.
 - Easy to extend for other countries or coordinates.
 

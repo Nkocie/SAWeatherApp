@@ -18,7 +18,6 @@ if response.status_code != 200 or "main" not in data:
     response = requests.get(url_coords)
     data = response.json()
 
-# Now check again and print results
 if response.status_code == 200 and "main" in data:
     print("Weather in Hlabisa, ZA:")
     print("Temperature:", data["main"]["temp"], "°C")
@@ -27,4 +26,5 @@ if response.status_code == 200 and "main" in data:
     print("Condition:", data["weather"][0]["description"])
 else:
     print("Error:", data.get("message", "Unable to fetch weather data"))
+
 

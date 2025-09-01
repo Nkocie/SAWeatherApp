@@ -3,14 +3,8 @@ import requests
 # Your API key from OpenWeatherMap
 API_KEY = "YOUR_API_KEY_HERE"
 
-# City and country code (ZA = South Africa)
 city = input("Enter city name: ")+",ZA"
 
-# Coordinates for Hlabisa (fallback)
-# latitude = -28.2103
-# longitude = 31.9947
-
-# First, try with city name
 url_city = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
 response = requests.get(url_city)
 data = response.json()
@@ -33,3 +27,4 @@ if response.status_code == 200 and "main" in data:
     print("Condition:", data["weather"][0]["description"])
 else:
     print("Error:", data.get("message", "Unable to fetch weather data"))
+
